@@ -167,7 +167,7 @@
 
 "@esbuild/darwin-arm64@0.18.20":
   version "0.18.20"
-  resolved "https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.18.20.tgz"
+  resolved "https://registry.yarnpkg.com/@esbuild/darwin-arm64/-/darwin-arm64-0.18.20.tgz#08172cbeccf95fbc383399a7f39cfbddaeb0d7c1"
   integrity sha512-bxRHW5kHU38zS2lPTPOyuyTm+S+eobPUnTNkdJEfAddYgEcll4xkT8DB9d2008DtTbl7uJag2HuE5NZAZgnNEA==
 
 "@esbuild/darwin-x64@0.18.20":
@@ -2312,7 +2312,7 @@ es-to-primitive@^1.2.1:
 
 esbuild@^0.18.10:
   version "0.18.20"
-  resolved "https://registry.npmjs.org/esbuild/-/esbuild-0.18.20.tgz"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.18.20.tgz#4709f5a34801b43b799ab7d6d82f7284a9b7a7a6"
   integrity sha512-ceqxoedUrcayh7Y7ZX6NdbbDzGROiyVBgC4PriJThBKSVPWnnFHZAkfI1lJT8QFkOwH4qOS2SJkS4wvpGl8BpA==
   optionalDependencies:
     "@esbuild/android-arm" "0.18.20"
@@ -4170,7 +4170,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.27:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.3.11, postcss@^8.4.27, postcss@^8.4.7:
+postcss@^8.3.11, postcss@^8.4.7:
   version "8.4.33"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.33.tgz"
   integrity sha512-Kkpbhhdjw2qQs2O2DGX+8m5OVqEcbB9HRBvuYM9pgrjEFUg30A9LmXNlTAUj4S9kgtGyrMbTzVjH7E+s5Re2yg==
@@ -4178,6 +4178,15 @@ postcss@^8.3.11, postcss@^8.4.27, postcss@^8.4.7:
     nanoid "^3.3.7"
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
+
+postcss@^8.4.27:
+  version "8.4.38"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.38.tgz#b387d533baf2054288e337066d81c6bee9db9e0e"
+  integrity sha512-Wglpdk03BSfXkHoQa3b/oulrotAkwrlLDRSOb9D0bN86FdRyE9lppSp33aHNPgBa0JKCoB+drFLZkQoRRYae5A==
+  dependencies:
+    nanoid "^3.3.7"
+    picocolors "^1.0.0"
+    source-map-js "^1.2.0"
 
 prelude-ls@^1.2.1:
   version "1.2.1"
@@ -4546,7 +4555,7 @@ rimraf@3.0.2, rimraf@^3.0.2:
 
 rollup@^3.27.1:
   version "3.29.4"
-  resolved "https://registry.npmjs.org/rollup/-/rollup-3.29.4.tgz"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.29.4.tgz#4d70c0f9834146df8705bfb69a9a19c9e1109981"
   integrity sha512-oWzmBZwvYrU0iJHtDmhsm662rC15FRXmcjCk1xD771dFDx5jJ02ufAQQTn0etB2emNk4J9EZg/yWKpsn9BWGRw==
   optionalDependencies:
     fsevents "~2.3.2"
@@ -4766,6 +4775,11 @@ source-list-map@^2.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
+
+source-map-js@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.0.tgz#16b809c162517b5b8c3e7dcd315a2a5c2612b2af"
+  integrity sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==
 
 source-map-support@~0.5.20:
   version "0.5.21"
@@ -5257,9 +5271,9 @@ vendors@^1.0.0:
   resolved "https://registry.npmjs.org/vendors/-/vendors-1.0.4.tgz"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite@^4.4.5:
+vite@4.5.1:
   version "4.5.1"
-  resolved "https://registry.npmjs.org/vite/-/vite-4.5.1.tgz"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-4.5.1.tgz#3370986e1ed5dbabbf35a6c2e1fb1e18555b968a"
   integrity sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==
   dependencies:
     esbuild "^0.18.10"
